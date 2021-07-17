@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box; 
+    list-style-type: none;
+    
+}
+    
+/** HEADER **/
+#header-nav{
+    background-color: cornflowerblue;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand span {
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.5em; 
+}
+
+.navbar-toggle {
+    background-color: white;
+}
+
+.nav-style  {
+    font-family: 'Oswald', sans-serif;
+    color: aqua;
+    text-align: center;
+    font-size: 1.3em;
+  
+}
+
+.nav-style hr {
+    margin-left: -40px
+}
+
+.navbar-nav>li>a {
+    color: whitesmoke !important;
+    text-shadow: 1px 1px 1px black;
+}
+
+.navbar-collapse {
+    padding-top: 10px;
+}
+
+/** HEADER-END**/
+
+
+.menu-ti{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.tile {
+    background-color:darkgrey;
+    border-radius:5px;
+    padding: 0px 15px 10px 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    overflow: auto;
+    
+}
+
+.tile h2{
+    text-align: center;
+    background-color:cornflowerblue;
+    border-radius:5px;
+    margin-top: 0px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px white;
+    font-family: 'Oxygen', sans-serif;
+    border: 1px solid black; 
+    padding-bottom: 5px; 
+   
+}
+
+.tile span {
+    font-family: 'Oswald', sans-serif;
+}
+
